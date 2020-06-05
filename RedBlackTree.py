@@ -1,4 +1,6 @@
-class Node(object):
+# Red Black Tree
+
+class Node(object):      #Node class
     def __init__(self, value, parent, color):
         self.value = value
         self.left = None
