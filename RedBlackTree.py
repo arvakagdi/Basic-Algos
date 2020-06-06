@@ -1,5 +1,16 @@
-# Insertion in Red Black Tree
+'''
+Insertion in Red Black Tree
 
+Rules for a RBT:
+
+All nodes have a color
+All nodes have two children (use NULL nodes)
+All NULL nodes are colored black
+If a node is red, its children must be black
+The root node must be black (optional)    (not implemented in this code)
+We'll go ahead and implement without this for now
+Every path to its descendant NULL nodes must contain the same number of black nodes
+'''
 class Node(object):
     def __init__(self, value, parent, color):
         self.value = value
