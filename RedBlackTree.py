@@ -11,6 +11,8 @@ The root node must be black (optional)    (not implemented in this code)
 We'll go ahead and implement without this for now
 Every path to its descendant NULL nodes must contain the same number of black nodes
 '''
+
+
 class Node(object):
     def __init__(self, value, parent, color):
         self.value = value
